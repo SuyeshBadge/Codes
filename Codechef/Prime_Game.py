@@ -4,7 +4,7 @@ import io
 import os
 
 
-def soe():
+def soe(k):
     n = 1000002
     prime = [1 for i in range(n + 1)]
     p = 2
@@ -23,6 +23,7 @@ def soe():
         if (prime[i]):
             c += 1
         count_p.append(c)
+    return(count_p[k])
 
 
 if __name__ == "__main__":
