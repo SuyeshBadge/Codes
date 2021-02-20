@@ -6,3 +6,4 @@ for _ in range(int(input())):
     c = 1
     f = list(Counter(bb).values())
     print(max(f))
+#
