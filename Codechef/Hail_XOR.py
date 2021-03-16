@@ -6,7 +6,7 @@ for _ in range(t):
     arr = list(map(int, input().split(' ')))
     i = 0
     k = X
-
+#
     while k > 0 and i < N-1:
         flag = 0
         p = int((math.log(arr[i])/(math.log(2))))
