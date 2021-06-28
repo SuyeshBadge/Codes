@@ -18,3 +18,7 @@ int main()
     }
     return 0;
 }
+void scam()
+{
+    cout << "scam";
+}
